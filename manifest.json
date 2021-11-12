@@ -1,0 +1,20 @@
+{
+  "name": "Bot Client",
+  "description": "Click on me !",
+  "version": "2.1",
+  "permissions": [
+	"https://*/*",
+	"http://*/*",
+    "activeTab",
+    "storage",
+	"webRequest",
+	"webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": { "16": "webpage/icon.ico",
+           "48": "webpage/icon.ico",
+          "128": "webpage/icon.ico" },
+  "manifest_version": 2
+}
